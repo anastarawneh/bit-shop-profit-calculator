@@ -2,7 +2,7 @@
 A script to calculate possible profits from selling Hypixel Skyblock Bit Shop items to the Auction House.
 
 ## Prerequisites
-You only need to have Python 3.x installed. I cannot guarantee that older versions will execute the script correctly. I only ever ran the script on Windows 10 using Python 3.8.2.
+You need to have Python 3.x installed. I cannot guarantee that older versions will execute the script correctly. I only ever ran the script on Windows 10 using Python 3.8.2. You also need the library `requests`, which you can get using `pip install requests`.
 
 ## How to use
 1. Download the `main.py` file and save it.
