@@ -11,7 +11,7 @@ bits_in_cookie = 0
 debug = "--debug" in sys.argv
 print("Welcome to anastarawneh's bit shop profit calculator script")
 if bits_in_cookie == 0 or "--setbits" in sys.argv:
-    bits_in_cookie = input("How many bits can you get per cookie: ")
+    bits_in_cookie = int(input("How many bits can you get per cookie: "))
     print(f"Set bits in cookie to {bits_in_cookie}. To avoid this prompt, open the python file in a text editor, and set the 'bits_in_cookie' variable to the specified amount.")
 if debug: print("Sending request to get auction page count")
 data: dict = requests.get("https://api.hypixel.net/skyblock/auctions").json()
