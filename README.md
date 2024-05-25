@@ -1,4 +1,5 @@
 # bit-shop-profit-calculator
+## This project has been archived. There are manu better services, and my interest in Skyblock has gone down a bit. That and I don't think anyone actually used this script other than myself :P
 A script to calculate possible profits from selling Hypixel Skyblock Bit Shop items to the Auction House.
 
 ## Prerequisites
